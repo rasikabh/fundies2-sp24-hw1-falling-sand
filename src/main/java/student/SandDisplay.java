@@ -144,7 +144,7 @@ public class SandDisplay extends JComponent implements MouseListener, MouseMotio
                 } else if (particle == Particle.SAND) {
                     colors[row][col] = Color.YELLOW;
                 } else if (particle == Particle.WATER) {
-                    colors[row][col] = Color.BLUE;
+                    colors[row][col] = Color.CYAN;
                 }
             }
         }
